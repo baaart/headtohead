@@ -17,6 +17,5 @@ const players = [
 
 it('renders Players components', () => {
   const wrapped = shallow(<PlayerList players={players}/>);
-  console.log(wrapped.debug());
   expect(wrapped.find(Player).length).toEqual(2);
 });
