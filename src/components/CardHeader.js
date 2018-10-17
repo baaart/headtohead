@@ -15,13 +15,11 @@ const Wrapper = styled.div`
 function CardHeader({...props}) {
   return (
     <Wrapper>
-      <h3>Stan Wawrinka</h3>
-      <Flag src="https://i.eurosport.com/_iss_/geo/country/flag/large/2213.png" />
+      <h3>{props.title}</h3>
+      <Flag src={props.url}/>
     </Wrapper>
   );
 }
-
-CardHeader.defaultProps = {};
 
 CardHeader.propTypes = {};
 

@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { Row } from 'antd';
+import styled from 'styled-components';
+import { Spin  } from 'antd';
+
 import './App.css';
 import PlayerList from './PlayerList';
+
+const Wrapper = styled.div`
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+`
 
 class App extends Component {
   state = {
@@ -19,10 +29,10 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <div>HeadToHead</div>
-        { this.state.players ? <PlayerList players={this.state.players}/> : <div>Loading</div>}
-      </div>
+      <Wrapper> 
+          <h1>HeadToHead</h1>
+          { this.state.players ? <PlayerList players={this.state.players}/> : <Spin /> }
+      </Wrapper>
     );
   }
 }
