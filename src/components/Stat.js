@@ -34,9 +34,13 @@ function Stat({...props}) {
   return (
     <Wrapper >
       <Label>{props.label}</Label>
-      <Value>{props.value}</Value>
+      <Value>{props.formatter(props.value)}</Value>
     </Wrapper>
    );
+}
+
+Stat.defaultProps = {
+  formatter: v => v,
 }
 
 export default Stat;

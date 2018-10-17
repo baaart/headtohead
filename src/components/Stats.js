@@ -16,15 +16,13 @@ function Stats({...props}) {
       <h3>Stats</h3>
       <Stat label="Rank" value={props.data.rank} />
       <Stat label="Points" value={props.data.points} />
-      <Stat label="Wins" value={props.data.last.filter(x => x===1).length} />
-      <Stat label="Loses" value={props.data.last.filter(x => x===0).length} />
-      <Stat label="Height" value={props.data.height} />
-      <Stat label="Weight" value={props.data.weight}/>
+      <Stat label="Wins" value={props.data.last} formatter={v => v.filter(x => x===1).length} />
+      <Stat label="Loses" value={props.data.last} formatter={v => v.filter(x => x===0).length} />
+      <Stat label="Height" value={props.data.height} formatter={v => `${v}cm`} />
+      <Stat label="Weight" value={props.data.weight} formatter={v => `${v/1000}kg`}/>
     </StatWrapper>
   );
 }
-
-Stats.defaultProps = {};
 
 Stats.propTypes = {};
 

@@ -4,6 +4,7 @@ exports[`Stat Matches snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Stat
+    formatter={[Function]}
     label="Height"
     value="183"
   />,

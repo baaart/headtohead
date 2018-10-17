@@ -39,26 +39,48 @@ ShallowWrapper {
           Stats
         </h3>,
         <Stat
+          formatter={[Function]}
           label="Rank"
           value={21}
         />,
         <Stat
+          formatter={[Function]}
           label="Points"
           value={1784}
         />,
         <Stat
+          formatter={[Function]}
           label="Wins"
-          value={4}
+          value={
+            Array [
+              1,
+              1,
+              1,
+              0,
+              1,
+            ]
+          }
         />,
         <Stat
+          formatter={[Function]}
           label="Loses"
-          value={1}
+          value={
+            Array [
+              1,
+              1,
+              1,
+              0,
+              1,
+            ]
+          }
         />,
         <Stat
+          formatter={[Function]}
           label="Height"
           value={183}
         />,
         <Stat
+          formatter={[Function]}
           label="Weight"
           value={81000}
         />,
@@ -82,6 +104,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "formatter": [Function],
           "label": "Rank",
           "value": 21,
         },
@@ -94,6 +117,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "formatter": [Function],
           "label": "Points",
           "value": 1784,
         },
@@ -106,8 +130,15 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "formatter": [Function],
           "label": "Wins",
-          "value": 4,
+          "value": Array [
+            1,
+            1,
+            1,
+            0,
+            1,
+          ],
         },
         "ref": null,
         "rendered": null,
@@ -118,8 +149,15 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "formatter": [Function],
           "label": "Loses",
-          "value": 1,
+          "value": Array [
+            1,
+            1,
+            1,
+            0,
+            1,
+          ],
         },
         "ref": null,
         "rendered": null,
@@ -130,6 +168,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "formatter": [Function],
           "label": "Height",
           "value": 183,
         },
@@ -142,6 +181,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "formatter": [Function],
           "label": "Weight",
           "value": 81000,
         },
@@ -184,26 +224,48 @@ ShallowWrapper {
             Stats
           </h3>,
           <Stat
+            formatter={[Function]}
             label="Rank"
             value={21}
           />,
           <Stat
+            formatter={[Function]}
             label="Points"
             value={1784}
           />,
           <Stat
+            formatter={[Function]}
             label="Wins"
-            value={4}
+            value={
+              Array [
+                1,
+                1,
+                1,
+                0,
+                1,
+              ]
+            }
           />,
           <Stat
+            formatter={[Function]}
             label="Loses"
-            value={1}
+            value={
+              Array [
+                1,
+                1,
+                1,
+                0,
+                1,
+              ]
+            }
           />,
           <Stat
+            formatter={[Function]}
             label="Height"
             value={183}
           />,
           <Stat
+            formatter={[Function]}
             label="Weight"
             value={81000}
           />,
@@ -227,6 +289,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "formatter": [Function],
             "label": "Rank",
             "value": 21,
           },
@@ -239,6 +302,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "formatter": [Function],
             "label": "Points",
             "value": 1784,
           },
@@ -251,8 +315,15 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "formatter": [Function],
             "label": "Wins",
-            "value": 4,
+            "value": Array [
+              1,
+              1,
+              1,
+              0,
+              1,
+            ],
           },
           "ref": null,
           "rendered": null,
@@ -263,8 +334,15 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "formatter": [Function],
             "label": "Loses",
-            "value": 1,
+            "value": Array [
+              1,
+              1,
+              1,
+              0,
+              1,
+            ],
           },
           "ref": null,
           "rendered": null,
@@ -275,6 +353,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "formatter": [Function],
             "label": "Height",
             "value": 183,
           },
@@ -287,6 +366,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "formatter": [Function],
             "label": "Weight",
             "value": 81000,
           },
