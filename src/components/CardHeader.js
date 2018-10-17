@@ -21,6 +21,9 @@ function CardHeader({...props}) {
   );
 }
 
-CardHeader.propTypes = {};
+CardHeader.propTypes = {
+  title: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired
+};
 
 export default CardHeader;

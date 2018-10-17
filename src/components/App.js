@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { Row } from 'antd';
 import styled from 'styled-components';
-import { Spin  } from 'antd';
+import { Spin, message  } from 'antd';
 
 import './App.css';
 import PlayerList from './PlayerList';
@@ -24,6 +23,9 @@ class App extends Component {
       .then(res => {
         const players = res.data.players;
         this.setState({ players })
+      })
+      .catch(function (error) {
+         message.error("Can't fetch the data"); 
       })
   }
 

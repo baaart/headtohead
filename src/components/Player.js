@@ -8,7 +8,7 @@ import CardHeader from './CardHeader';
 
 const PlayerWrapper = styled.div`
   margin: 10px;
-`
+` 
 const CardContent = styled.div`
   display: flex;
   flex-direction: row;
@@ -35,6 +35,8 @@ function Player({...props}) {
   );
 }
 
-Player.propTypes = {};
+Player.propTypes = {
+  data: PropTypes.object.isRequired
+};
 
 export default Player;

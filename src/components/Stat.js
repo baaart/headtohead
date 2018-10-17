@@ -43,4 +43,10 @@ Stat.defaultProps = {
   formatter: v => v,
 }
 
+Stat.propTypes = {
+  label: PropTypes.string.isRequired,
+  value: PropTypes.any.isRequired,
+  formatter: PropTypes.func,
+}
+
 export default Stat;

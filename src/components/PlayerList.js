@@ -14,6 +14,8 @@ function PlayerList(props) {
   );
 }
 
-PlayerList.propTypes = {};
+PlayerList.propTypes = {
+  players: PropTypes.arrayOf(PropTypes.object).isRequired
+};
 
 export default PlayerList;
